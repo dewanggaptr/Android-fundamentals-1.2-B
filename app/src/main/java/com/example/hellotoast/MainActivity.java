@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
             mShowCount.setText(Integer.toString(mCount));
         }
     }
+
+    public void countZero(View view) {
+        mCount = 0;
+        mShowCount.setText("0");
+    }
 }
